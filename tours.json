@@ -1,0 +1,25 @@
+{
+  "data": [
+    { "transport": "Muhammad Mutahir" },
+    {
+      "id": 2,
+      "destinationName": "muree",
+      "country": "Pakistan",
+      "tourCapacity": 12,
+      "departure": "12/8/2023",
+      "arrival": "25/8/2023",
+      "price": "50000",
+      "transport": "Air"
+    },
+    {
+      "id": 3,
+      "destinationName": "srinagar",
+      "country": "Pakistan",
+      "tourCapacity": 12,
+      "departure": "6/8/2023",
+      "arrival": "18/8/2023",
+      "price": "50000",
+      "transport": "Air"
+    }
+  ]
+}
