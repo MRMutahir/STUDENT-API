@@ -15,11 +15,13 @@ app.use(Express.json())
 //>>>>>>>>>>>>>>>>>>>>>>>>>  Get request >>>>>>>>>>>>>>>>>>
 app.get('/student',(req,res)=>{
 let html = `<ul>${convertJSON.Data.map(item=>{
-    let names = item.first_name.join(',')
+    let names = item.first_name
     // console.log(item.first_name);
    return `<li>${names}</li>`
 })}</ul>`
+// let join =  html.join(" ")
 res.send(html)
+
 })
 app.get('/api/student',(req,res)=>{
     res.json(convertJSON)
